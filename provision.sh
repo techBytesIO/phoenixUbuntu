@@ -6,7 +6,6 @@ apt-get update >/dev/null 2>&1
 
 echo "Installing some basic pre-reqs..."
 apt-get install -y software-properties-common curl
-apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xcbcb082a1bb943db
 
 wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add -
 sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ trusty-pgdg main" >> /etc/apt/sources.list.d/postgresql.list'
@@ -37,9 +36,11 @@ sudo -u postgres createuser --superuser vagrant
 echo "Installing node....because you know you have to..."
 apt-get install -y nodejs
 
-echo "Minimizing the image..."
+echo "Installing htop ..."
+apt-get install -y htop
+
 echo "Minimizing disk image..."
 dd if=/dev/zero of=/EMPTY bs=1M
 rm -f /EMPTY
-sync
+
 echo "I think I am done....let's find out"
