@@ -26,7 +26,7 @@ clone this Repo
 
 cd into the file, open the files and alter
 
-`vagrant init`
+`vagrant init techbytes/phoenixubuntu`
 
 `vagrant up`
 
