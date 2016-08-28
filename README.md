@@ -26,8 +26,9 @@ clone this Repo
 
 cd into the file, open the files and alter
 
-vagrant init
-vagrant up
+`vagrant init`
+
+`vagrant up`
 
 ta-da -- Now you have your Phoenix Development Environment
 
