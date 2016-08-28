@@ -35,4 +35,4 @@ ta-da -- Now you have your Phoenix Development Environment
 You can package this so that it is available for you on your host machine at anytime.
 
 With your PhoenixUbuntu box up and running:
-* vagrant package --output WHATEVEREYOUWANTTONAMEIT
+`vagrant package --output WHATEVEREYOUWANTTONAMEIT`
