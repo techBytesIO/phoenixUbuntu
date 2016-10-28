@@ -15,6 +15,7 @@ __Consists of:__
 * htop Process Viewer
 
 ## Standing up your Phoenix Development Environment
+Watch the tutorial on setting it up on [techBytes.io](http://www.techbytes.io/videos/6)
 ### Pull down the box from Vagrant
 You can download the box from the official [Vagrant site](https://atlas.hashicorp.com/techbytes/boxes/PhoenixUbuntu)
 - or -
