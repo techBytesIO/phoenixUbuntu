@@ -17,7 +17,7 @@ __Consists of:__
 ## Standing up your Phoenix Development Environment
 Watch the tutorial on setting it up on [techBytes.io](https://youtu.be/WIcJ98vZiJU)
 ### Pull down the box from Vagrant
-You can download the box from the official [Vagrant site](https://atlas.hashicorp.com/techbytes/boxes/PhoenixUbuntu)
+You can download the box from the official [Vagrant site](https://app.vagrantup.com/techbytes/boxes/PhoenixUbuntu)
 - or -
 Go to your terminal and add the box this way:
 vagrant box add techbytes/phoenixubuntu
